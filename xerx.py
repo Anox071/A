@@ -72,7 +72,7 @@ from time import sleep as waktu
 ##useragent
 ugen2=[]
 ugen=[]
-anox-x_xd=[]
+anox-x_xd==[]
 
 try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
