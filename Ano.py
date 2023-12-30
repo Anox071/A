@@ -1,9 +1,9 @@
-#created by anoX aka syco-x chaudhary
+#created by anoX aka syCo chaudhary
 #open source by anoX
 #github= anoX-XD
 #BY BY MEY KABHI WAPIS NAHI AAUNGA AB 
 #JAI NEPAL
-# fb id https://www.facebook.com/asyco-x.chaudhary69
+# fb id https://www.facebook.com/asyCo.chaudhary69
 
 
 from bs4 import BeautifulSoup as sop
@@ -1157,7 +1157,7 @@ logo ="""
 ##     ## ######## ##     ## ##     ## 
 
 [+]==============================================
-[+] CREATED BY   :  syco-xxROHIT
+[+] CREATED BY   :  syCoxROHIT
 [+] FB GROUP     :  TERMUX TEAM INP COMMAND 
 [+] ON GITHUB    :  anoX-XD
 [+] TOOL STATUS  :  RANDOM
@@ -1209,14 +1209,14 @@ def anoX():
     
     print("[1] RANDOM CLONE NP\n[2] RANDOM CLONE IND\n[3] RANDOM CLONE PK\n[4] RANDOM CLONE BD\n[5] RANDOM CLONE WITH CHOOSE PSWD\n[6] RANDOM CLONE WITH I LOVE YOU & FREE FIRE PSWD\n[7] CONTACT OWNER")
     print(49*'=')
-    syco-x = input("✓CHOOSE>")
-    if syco-x =='1':anoX1()
-    elif syco-x =='2':anoX2()
-    elif syco-x =='3':anoX3()
-    elif syco-x =='4':anoX4()
-    elif syco-x =='5':anoX5()
-    elif syco-x =='6':anoX6()
-    elif syco-x =='7':os.system("xdg-open https://www.facebook.com/asyco-x.chaudhary69")
+    syCo = input("✓CHOOSE>")
+    if syCo =='1':anoX1()
+    elif syCo =='2':anoX2()
+    elif syCo =='3':anoX3()
+    elif syCo =='4':anoX4()
+    elif syCo =='5':anoX5()
+    elif syCo =='6':anoX6()
+    elif syCo =='7':os.system("xdg-open https://www.facebook.com/asyCo.chaudhary69")
     else:
         print("SELECT CORRECT OPTION")
         anoX()
