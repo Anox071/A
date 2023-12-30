@@ -1785,7 +1785,7 @@ def x(uid,pwx,tl):
     'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-in,en-gb;q=0.9,en-us;q=0.8,en;q=0.7',
-    'cache-control': 'max-age=0() 
+    'cache-control': 'max-age=0()',
     'dpr': '2.75',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"not_a brand";v="8", "chromium";v="120"',
