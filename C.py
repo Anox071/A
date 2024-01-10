@@ -59,7 +59,7 @@ logo4 = """
 \033[1;37m[\033[1;32m=\033[1;37m] DEVELOPER   :   HONEY-KASHYAP
 \033[1;37m[\033[1;32m=\033[1;37m] TOOLS       :   AUTO CREATE FB
 \x1b[0;97m-----------------------------------------------"""
-boy = ['Yuji Montefalco', 'Alex Gray', 'Aifel Velasquez', 'Ken oxford', 'Neo Oxford', 'Reign Smith', 'Jun Neil', 'Kaizen Ramirez', 'Kai Kai', 'Aireen Montefalco', 'Safdar Malik', 'Intzar Khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Muzammil Malik', 'Jerry Montefalco', 'Jim Jvska', 'Yuno Montefalco', 'Kenjie Montefalco', 'Yuro Oxford']
+boy = ['rahul kumar', 'Alex raj', 'Ravi nath, 'Ken oxford', 'rohit suresh', 'radhe Smith', 'sunil Neil', 'vishal Ramirez', 'honey Kai', 'Karan Montefalco', 'Lokes Meena', 'Zain Khan', 'Arman Malik', 'Abdul Malik', 'Nares Jutt', 'Muza Malik', 'Ramu Montefalco', 'Vivek Jvska', 'Anku Montefalco', 'Suraj Montefalco', 'Rahul Oxford']
 girl = ['Sajida Malik', 'Ayesha Khan', 'Nabeela Malik', 'Kinza Fatima', 'Arooj Khan', 'Muskan Khan', 'Ayesha Malik', 'Safina Malik', 'Nida Ali', 'Rimsha Ali']
 ok = []
 cp = []
@@ -127,7 +127,7 @@ class create:
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro Build/RP1A.200720.011) AppleWebKit/537.36',
     'viewport-width': '980',}
         headers1 = {
     'authority': 'mbasic.facebook.com',
@@ -148,7 +148,7 @@ class create:
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro Build/RP1A.200720.011) AppleWebKit/537.36',
     'viewport-width': '980',}
         OO = '\033[0;97m'
         for x in range(lim):
