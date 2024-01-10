@@ -59,7 +59,7 @@ logo4 = """
 \033[1;37m[\033[1;32m=\033[1;37m] DEVELOPER   :   HONEY-KASHYAP
 \033[1;37m[\033[1;32m=\033[1;37m] TOOLS       :   AUTO CREATE FB
 \x1b[0;97m-----------------------------------------------"""
-boy = ['rahul kumar', 'Alex raj', 'Ravi nath, 'amit kumar', 'rohit suresh', 'radhe Smith', 'sunil Neil', 'vishal Ramirez', 'honey Kai', 'Karan Montefalco', 'Lokes Meena', 'Zain Khan', 'Arman Malik', 'Abdul Malik', 'Nares Jutt', 'Muza Malik', 'Ramu Montefalco', 'Vivek Jvska', 'Anku Montefalco', 'Suraj Montefalco', 'Rahul Oxford']
+boy = ['rahul kumar', 'Alex raj', 'Ravi nath', 'amit kumar', 'rohit suresh', 'radhe Smith', 'sunil Neil', 'vishal Ramirez', 'honey Kai', 'Karan Montefalco', 'Lokes Meena', 'Zain Khan', 'Arman Malik', 'Abdul Malik', 'Nares Jutt', 'Muza Malik', 'Ramu Montefalco', 'Vivek Jvska', 'Anku Montefalco', 'Suraj Montefalco', 'Rahul Oxford']
 girl = ['Sajida Malik', 'Ayesha Khan', 'Nabeela Malik', 'Kinza Fatima', 'Arooj Khan', 'Muskan Khan', 'Ayesha Malik', 'Safina Malik', 'Nida Ali', 'Rimsha Ali']
 ok = []
 cp = []
