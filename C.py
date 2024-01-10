@@ -59,7 +59,7 @@ logo4 = """
 \033[1;37m[\033[1;32m=\033[1;37m] DEVELOPER   :   HONEY-KASHYAP
 \033[1;37m[\033[1;32m=\033[1;37m] TOOLS       :   AUTO CREATE FB
 \x1b[0;97m-----------------------------------------------"""
-boy = ['Yuji Montefalco', 'Alex Gray', 'Aifel Velasquez', 'Ken oxford', 'Neo Oxford', 'Reign Smith', 'Jun Neil', 'Kaizen Ramirez', 'Kai Kai', 'Aireen Montefalco', 'Safdar Malik', 'Intzar Khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Muzammil Malik', 'Jerry Montefalco', 'Jim Jvska', 'Yuno Montefalco', 'Kenjie Montefalco', 'Yuro Oxford']
+boy = ['Rahul', 'Lokesh Kumar', 'Sahil Kumar', 'Ram Kumar', '', 'Rajesh Sharma', 'Jun Neil', 'Kaizen Ramirez', 'Kai Kai', 'Sunil Sharma', 'Safdar Malik', 'Nazir khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Zain Malik', 'Arhan khan', 'Avi Raj', 'Suraj Raj', 'Vishal Kumar', 'Nitesh Kumar']
 girl = ['Sajida Malik', 'Ayesha Khan', 'Nabeela Malik', 'Kinza Fatima', 'Arooj Khan', 'Muskan Khan', 'Ayesha Malik', 'Safina Malik', 'Nida Ali', 'Rimsha Ali']
 ok = []
 cp = []
@@ -127,7 +127,7 @@ class create:
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-F900U Build/PPR1.180610.011M673G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Chrome/67.0.3396.8781.0.4333.52 Mobile Safari/537.36',
     'viewport-width': '980',}
         headers1 = {
     'authority': 'mbasic.facebook.com',
@@ -148,7 +148,7 @@ class create:
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-F900U Build/PPR1.180610.011M673G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Chrome/67.0.3396.8781.0.4333.52 Mobile Safari/537.36',
     'viewport-width': '980',}
         OO = '\033[0;97m'
         for x in range(lim):
@@ -261,12 +261,13 @@ class create:
                                     cok = self.ses.cookies.get_dict()
                                     cp.append(email+passw)
                                     print ('\r\033[1;33m[HONEY-CP] '+cok['c_user']+' | '+passw+'\033[0;97m     ')
+                                    open('/sdcard/HONEY-CP.txt','a').write(+cok['c_user']+'|'+passw+'\n')
                                 else:
                                     coki = (";").join([ "%s=%s" % (key, value) for key, value in self.ses.cookies.get_dict().items() ])
                                     cok = self.ses.cookies.get_dict()
                                     print ('\r\033[1;32m[HONEY-OK] '+cok['c_user']+' | '+passw+' | '+coki+'\033[0;97m     ')
-                                    open('/sdcard/HONEY-COOKIE.txt','a').write(+cok['c_user']+'|'+passw+ ' | ' +coki+'\n')
-                                    open('/sdcard/HONEY-OK.txt','a').write(ids+'|'+pas+'\n')
+                                    open('/sdcard/HONEY-COOKIE.txt','a').write(+cok['c_user']+'|'+pas+ ' | ' +coki+'\n')
+                                    open('/sdcard/HONEY-OK.txt','a').write(+cok['c_user']+'|'+pas+'\n')
                                     ok.append(email+passw)
             except requests.exceptions.ConnectionError:
                 time.sleep(1)
