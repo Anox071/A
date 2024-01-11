@@ -63,7 +63,7 @@ logo4 = """
 \x1b[1;97m> Facebok: Jutt Badshah
 \x1b[1;97m> Version: auto create facebook
 \x1b[0;97m-----------------------------------------------"""
-boy = ['Ali Khan', 'Rustam Khan', 'Faisal Khan', 'Afzal Khan', 'Haider Khan', 'Suleman Khan', 'Nadeem Khan', 'Nazeer Malik', 'Nazeer Jutt', 'Nazeer Rehmani', 'Safdar Malik', 'Intzar Khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Muzammil Malik', 'Fiaz Ahmad', 'Asghar Ali', 'Shabeer Ahmad', 'Irfan Ali', 'Ahmad Gujjar']
+boy = ['Rahul Kumar', 'Lokesh Kumar', 'Sahil Kumar', 'Ram Kumar', 'Nitesh Kumar','Rajesh Sharma', 'Raj Sharma', 'Nadan Ldka', 'Kalu Baba', 'Sunil Sharma', 'Safdar Malik', 'Nazir khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Zain Malik', 'Arhan khan', 'Avi Raj', 'Suraj Raj', 'Vishal Kumar', 'Nitesh Kumar', 'Ali Khan', 'Rustam Khan', 'Faisal Khan', 'Afzal Khan', 'Haider Khan', 'Suleman Khan', 'Nadeem Khan', 'Nazeer Malik', 'Nazeer Jutt', 'Nazeer Rehmani', 'Safdar Malik', 'Intzar Khan', 'Saleem Malik', 'Abdullah Malik', 'Naseer Jutt', 'Muzammil Malik', 'Fiaz Ahmad', 'Asghar Ali', 'Shabeer Ahmad', 'Irfan Ali', 'Ahmad Gujjar']
 girl = ['Sajida Malik', 'Ayesha Khan', 'Nabeela Malik', 'Kinza Fatima', 'Arooj Khan', 'Muskan Khan', 'Ayesha Malik', 'Safina Malik', 'Nida Ali', 'Rimsha Ali']
 ok = []
 cp = []
