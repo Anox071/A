@@ -679,7 +679,7 @@ def random_number():
 		print(47*"-")
 		for guru in user:
 			uid = kode+guru
-			pwx = ['57273200']
+			pwx = ['57273200','kode+mnp','57575751']
 			yaari.submit(rcrack,uid,pwx,tl)
 
 	print(47*"-")
